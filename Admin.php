@@ -1,5 +1,5 @@
 <?php @session_start(); ?>
-<?php require_once('Connections/localhost.php'); ?>
+<?php require_once('localhost.php'); ?>
 <?php
 if (!isset($_SESSION)) {
   session_start();

@@ -68,15 +68,15 @@ $totalRows_Recordset_Home = mysql_num_rows($Recordset_Home);
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<link href="CSS/Layout.css" rel="stylesheet" type="text/css" />
-<link href="CSS/Menu.css" rel="stylesheet" type="text/css" />
-<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
-<link href="SpryAssets/SpryValidationConfirm.css" rel="stylesheet" type="text/css" />
+<link href="layout.css" rel="stylesheet" type="text/css" />
+<link href="menu.css" rel="stylesheet" type="text/css" />
+<link href="SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<link href="SpryValidationConfirm.css" rel="stylesheet" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width" />
-<title>BMTC</title>
-<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
-<script src="SpryAssets/SpryValidationConfirm.js" type="text/javascript"></script>
+<title>Sect_119</title>
+<script src="SpryValidationTextField.js" type="text/javascript"></script>
+<script src="SpryValidationConfirm.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -86,10 +86,9 @@ $totalRows_Recordset_Home = mysql_num_rows($Recordset_Home);
 	<nav>
     	<ul>
             <li><a href="#">Admin</a></li>
-        	<li><a href="#">Mining</a></li>
-            <li><a href="#">Engineering</a></li>
-            <li><a href="#">Q.A.</a></li>
-            <li><a href="#">C.E.</a></li>
+        	<li><a href="#">Production</a></li>
+            <li><a href="#">Working Places</a></li>
+            <li><a href="#">Machines</a></li>
             <li><a href="#">Reports</a></li>
         </ul>
     </nav>
@@ -99,10 +98,10 @@ $totalRows_Recordset_Home = mysql_num_rows($Recordset_Home);
 	  <h1>Welcome to ...</h1>
 	</div>
 	<div id="ContentLeft">
-	  <h2><u>BMTC</u></h2>
+	  <h2><u>Section 119</u></h2>
 	  <br />
 	  <br />
-      The best Training Centre ever!
+      The Home of Champions!
       
 	</div>
     <div id="ContentRight">
@@ -112,14 +111,14 @@ $totalRows_Recordset_Home = mysql_num_rows($Recordset_Home);
 <div id="Footer"></div>
 
 <div class="box">
-    <center><img src="assets/XLP.jpg" width="500" height="291" /></center>
+    <center><img src="logo.png" width="500" height="291" /></center>
 </div>
 
 <div id="Content">
 	<div id="PageFooter">
       <br />
       <br />
-	  <h1><center>Bathopele Mechanised Training Centre</center></h1>
+	  <h1><center>Bathopele Mechanised Mine</center></h1>
       <br />
       <br />
       <br />

@@ -2,7 +2,7 @@
 @session_start();
 $_SESSION['EMPW'] = $_POST['Email'];
 ?>
-<?php require_once('Connections/localhost.php'); ?>
+<?php require_once('localhost.php'); ?>
 <?php
 if (!function_exists("GetSQLValueString")) {
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 

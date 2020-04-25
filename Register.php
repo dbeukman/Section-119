@@ -1,6 +1,6 @@
 <?php 
 
-require_once('Connections/localhost.php'); 
+require_once('localhost.php'); 
 ?>
 <?php
 if (!function_exists("GetSQLValueString")) {
@@ -128,15 +128,15 @@ $totalRows_Register = mysql_num_rows($Register);
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<link href="CSS/Layout.css" rel="stylesheet" type="text/css" />
-<link href="CSS/Menu.css" rel="stylesheet" type="text/css" />
-<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
-<link href="SpryAssets/SpryValidationConfirm.css" rel="stylesheet" type="text/css" />
+<link href="layout.css" rel="stylesheet" type="text/css" />
+<link href="menu.css" rel="stylesheet" type="text/css" />
+<link href="SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<link href="SpryValidationConfirm.css" rel="stylesheet" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width" />
-<title>BMTC</title>
-<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
-<script src="SpryAssets/SpryValidationConfirm.js" type="text/javascript"></script>
+<title>Sect_119</title>
+<script src="SpryValidationTextField.js" type="text/javascript"></script>
+<script src="SpryValidationConfirm.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -156,7 +156,7 @@ $totalRows_Register = mysql_num_rows($Register);
 	  <h1>Sign Up!</h1>
 	</div>
 	<div id="ContentLeft">
-	  <h2><u>BMTC</u></h2>
+	  <h2><u>Section 119</u></h2>
 	  <br />
 	  <br />
       Please Register to be able to sign in to our Website.

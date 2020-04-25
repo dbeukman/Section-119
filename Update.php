@@ -1,5 +1,5 @@
 <?php @session_start(); ?>
-<?php require_once('Connections/localhost.php'); ?>
+<?php require_once('localhost.php'); ?>
 <?php
 if (!function_exists("GetSQLValueString")) {
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
@@ -67,12 +67,12 @@ $totalRows_User = mysql_num_rows($User);
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<link href="CSS/Layout.css" rel="stylesheet" type="text/css" />
-<link href="CSS/Menu.css" rel="stylesheet" type="text/css" />
-<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<link href="layout.css" rel="stylesheet" type="text/css" />
+<link href="menu.css" rel="stylesheet" type="text/css" />
+<link href="SpryValidationTextField.css" rel="stylesheet" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>BMTC</title>
-<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<title>Sect_119</title>
+<script src="SpryValidationTextField.js" type="text/javascript"></script>
 </head>
 
 <body>
