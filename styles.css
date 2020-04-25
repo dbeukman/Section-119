@@ -2,3 +2,33 @@ h1 {
 	color:#111069;
 	text-align:center;
 }
+h3 {
+	color: solid black;
+}
+div {
+	background-color: #dec085;
+	width: 20%;
+	height: 130px;
+	margin: 30px;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+}
+img {
+	width: 10%;
+	align: right-side
+}
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td {
+	border: 2px solid black;
+	padding: 5px
+}
+th {
+	background-color: lightgray;
+	text-align: center
+}
