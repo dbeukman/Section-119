@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: large;
+}
+#Holder {
+	width:978px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:21px;
+	margin-bottom:21px;
+}
+#Header {
+	height:70px;
+	background:#FFFFFF url(../assets/anglo-logo.png);
+	background-repeat:no-repeat;
+	margin-bottom:11px;
+}
+#NavBar {
+	height:60px;
+	background-color:rgb(0, 0, 102);
+	font-weight:bold;
+}
+#Content {
+	height:auto;
+	clear:both;
+	overflow:auto;
+}
+#PageHeading {
+	height:auto;
+	padding:11px;
+}
+#ContentLeft {
+	width: 900px;
+	float: left;
+	padding-top: 11px;
+	padding-left: 11px;
+}
+#ContentRight {
+	width:680px;
+	float:right;
+}
+#Footer {
+	height: 30px;
+}
+h1 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	color: #668;
+	font-size: medium;
+}
+h2 {
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:darker;
+	#950;
+}
+h6 {
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:lighter;
+	font-size:14px;
+	#320;
+}
+.StyleTxtField {
+	border: 1px solid #666;
+	border-radius: 6px;
+	width: 200px;
+	height: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 6px;
+	font-weight: bold;
+	color: #036;
+}
